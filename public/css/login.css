@@ -1,0 +1,46 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: #e2e1e0
+}
+
+.container{
+    width: 400px;
+}
+
+.card{
+    padding: 15px;
+    margin-top: 30px;
+    box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+    border-radius: 10px;
+}
+
+.card-title{
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.btn-primary{
+    background: rgb(9,9,121);
+    background: linear-gradient
+    (90deg, rgba(9,9,121,1) 0%, rgba(9,121,112,1) 0%,
+     rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%, rgba(0,36,23,1) 100%);
+}
+
+.text-login{
+    font-size: 14px;
+}
+
+.text-login a{
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.heading{
+    margin-top: 60px;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
