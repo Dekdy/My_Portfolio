@@ -20,7 +20,7 @@
                                     <div class="col-md-6">
                                         <div class="position-relative form-group">
                                             <label for="exampleEmail11" class="">Nama Skill</label>
-                                            <input name="nama" id="exampleEmail11" placeholder="Input Skill Anda" type="text" class="form-control">
+                                            <input name="nama" id="exampleEmail11" placeholder="Input Skill Anda" type="text" class="form-control" value="{{old('nama')}}">
                                             @if ($errors->has('nama'))
                                                 <span class="text-danger">{{ $errors->first('nama')}}
                                             @endif
